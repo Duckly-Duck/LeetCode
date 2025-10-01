@@ -1,13 +1,5 @@
 class Solution:
     def reverse(self, x: int) -> int:
-        # a=list(str(x))
-        # if not a[0].isdigit():
-        #     s=a[0]
-
-        # a=a[:0:-1].join("")
-
-        # return 
-
 
         x=str(x)
         if x.startswith("-"):
