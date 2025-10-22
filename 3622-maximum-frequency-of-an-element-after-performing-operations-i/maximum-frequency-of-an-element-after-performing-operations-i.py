@@ -8,8 +8,8 @@ class Solution(object):
         right = 0
         
         # First pass: choose existing numbers as reference points
-        from collections import Counter
-        count = Counter(nums)  # Dictionary to store frequency of each element
+        
+        count = collections.Counter(nums)  # Dictionary to store frequency of each element
 
         for mid in range(n):
             # Move the left pointer to maintain the range within `k`
